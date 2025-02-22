@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    background-color: black;
+}
+.page1{
+    background-image: url("header-image.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.background{
+    height: 100vh;
+   background-color: rgba(0,0,0,0.6);
+}
+.navbar{
+     display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.image img{
+    width: 150px;
+    height: 50px;
+    margin-left:40px;
+ }
+.eng select{
+    width: 130px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(170, 158, 158);
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin-right: 15px;
+    border-radius: 3px;
+
+}
+.eng button{
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    font-weight: bolder;
+    margin-right: 60px;
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+
+}
+.home{
+    text-align: center;
+    color: white;
+    height: 50vh;
+    
+}
+.content{
+    margin-top: 10%;
+    font-weight: bold;
+ }
+ .content h1,p{
+    margin: 20px 0px 20px 0px;
+ }
+ /*.content*/ input{
+    width: 350px;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: transparent;
+    border-style: none;
+    border: 2px solid rgb(170, 158, 158);
+    color: white;
+ }
+ /*.content */label{
+    border: 2px solid red;
+    padding: 17px 30px;
+    background-color: red;
+    border-radius: 3px;
+    font-size: large;
+
+ }
+ /* ----------- page 2--------*/
+
+ .page{
+    display: flex;
+    color:white;
+    border-top: 10px solid gray;
+    justify-content: space-around;
+}
+ .page .text{
+        width: 50%;
+        height: 550px;
+ }
+ .text h1{
+    margin-top: 200px;
+    font-size: 40px;
+    margin-left: 20px;
+
+ }
+ .text p{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+ }
+ .page .image{
+    height: 550px;
+    width: 40%;
+}
+.page .image img{
+    width: 450px;
+    height: 360px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.box2{
+    flex-direction:row-reverse;
+}
+.part3{
+    color:white;
+    border-top: 10px solid #808080;
+    max-height: 100%;
+}
+.part3 h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.part3 div li{
+    height: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+    margin: 10px 40px;
+    list-style-type: none;
+    padding-top: 35px;
+    background-color:#1e1d1d;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.part3 div li .plus{
+    margin-right: 20px;
+    font-size: 30px;
+}
+.part3 div li:hover{
+    background-color: rgba(71, 70, 70, 0.8);
+}
+.part3 div p{
+    height:200px;
+    margin: 10px 40px;
+    background-color:#1e1d1d;
+    font-size: larger;
+    padding-left: 30px;
+    padding-top: 20px;
+    display: none;
+}
+#ready{
+    text-align: center;
+    color:white;
+    margin-top: 50px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.lastemail{
+    padding-left: 350px;
+}
+/* the last details part of the home page*/
+.last{
+    margin-top: 30px;
+    border-top: 10ps solid gray;
+    height: 70vh;
+    color: white;
+    border-top: 10px solid gray;
+}
+.question{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+span{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+table,tr,td{
+    border-collapse: collapse;
+}
+table{
+    margin-left: 30px;
+    width: 100%;
+    margin-top: 30px;
+}
+td{
+    height: 30px;
+    padding-top: 10px;
+    font-size: small;
+    text-decoration: underline;
+    text-decoration-color: wheat;
+    font-weight: lighter;
+
+}
+.last select{
+    width: 130px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(170, 158, 158);
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 3px;
+
+}
+.caption{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: small;
+    color: white;
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    width: 27%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color:gray;
+   
+}
+.flex1{
+    width: 100%;
+    height: 100px;
+  
+}
+.flex1 p{
+    float: right;
+   position: relative;
+ top: 95px;
+ font-weight: bold;
+ font-size: x-large;
+ color: white;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    border-top: 2px solid white;
+
+}
+.items{
+    text-align: center;
+    height: 70px;
+   
+}
+.items:hover{
+    background-color: white;
+    border-radius: 1000px;
+    color: black;
+}
+
+button{
+    width: 78px;
+    height: 70px;
+    background-color: transparent;
+    font-size: larger;
+    border-style: none;
+    color: white;
+
+}
+button:hover{
+    border-radius: 100%;
+    background-color: white;
+    color: black;
+}
+.equal{
+    grid-column-start: 3;
+    grid-column-end: 5;  
+   
+    text-align: center;
+    height: 70px;
+     
+}
+.equal button{
+    width: 170px;
+    border-radius:3px;
+    
+   
+    
+}
+.equal button:hover{
+    background-color: white;
+   
+}
+
+/*.del{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.del button{
+    width: 170px;
+  border-radius: 3px;
+    
+}
+.del button:hover{
+    background-color: white;
+}*/
+#sym{
+    color: orangered;
+}

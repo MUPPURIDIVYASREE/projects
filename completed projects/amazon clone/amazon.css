@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#title{
+display: flex;
+justify-content: space-around;
+background-color: black;
+color: white;
+height: 60px;
+}
+
+#title .image img{
+width: 130px;
+height: 65px;
+}
+.search{
+display: flex;
+width: 450px;
+flex-wrap: wrap;
+align-items: center;
+border: 2px solid white;
+height: 35px;
+margin-top: 10px;
+background-color: white;
+color: black;
+justify-content: space-between;
+border-radius: 2px;
+}
+.searchbar input {
+width: 380px;
+height: 30px;
+margin-left: 10px;
+border: none;
+}
+.searchbar span {
+font-size: small;
+}
+.search_icon{
+background-color: orange;
+height: 34px;
+ width: 32px;
+}
+.search_icon i{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.deliver{
+width: 85px;
+margin-left: 30px;
+padding-top: 10px;
+line-height: 20px;
+
+}
+.account{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.account p{
+font-size: smaller;
+margin-top: 15px;
+font-weight: normal;
+}
+.resume{
+width: 80px;
+line-height: 15px;
+}
+.resume p{
+margin-top: 16px;
+font-size: 11px;
+}
+.resume h6{
+font-size: small;
+}
+.cart{
+padding-top: 20px;
+font-size: 15px;
+margin-right: 20px;
+font-weight: bold;
+}
+.cart i{
+    font-size: 30px;
+}
+.title2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: rgb(15, 21, 29);
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+}
+.flex1{
+    margin-left: 70px;
+}
+.flex1 i{
+    margin-right: 5px;
+}
+.flex2{
+    display: flex;
+    margin-right: 250px;
+}
+.flex2 div{
+    margin-right: 20px;
+}
+.flex3{
+    margin-right: 30px;
+}
+.center{
+    background-image: url("hero_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+.center p{
+    position: absolute;
+    bottom: 15px;
+    background-color: white;
+    left: 120px;
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 7px 90px;
+}
+/* adding the cards */
+.cards{
+    display: flex;
+    background-color: rgb(184, 179, 173);
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+.carditems{
+    width:284px;
+    height: 350px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.carditems h3{
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.carditems img{
+    width: 255px;
+    height: 250px;
+    margin: 10px 0 10px 0;
+   padding-left: 10px;
+}
+.carditems p{
+    color: rgb(16, 107, 110);
+    margin-left:10px ;
+    font-size: 15px;
+    /*font-size: smaller;*/
+    font-weight: bold;
+}
+.back{
+   
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+   
+        background-color: rgb(15, 21, 29);
+    opacity: 0.5;
+
+}
+.back a{
+    text-decoration: none;
+    color: white;
+
+}
+.bottom{
+     background-color:  rgb(2, 9, 30);
+    opacity: 0.7;
+}
+.footer{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 50px;
+   
+    color: white;
+    margin-bottom: -30px;
+}
+hr{
+    border-color: 2px solid white;
+}
+pre{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+pre span{
+    font-size: larger;
+}
+.bottom div{
+    text-align: center;
+}
+.bottom img{
+    width: 200px;
+    height: 90px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flex1"><p id="demo"></p></div>
+        <div class="gridcontainer">
+            <div class="items"><button onclick="cancle()" id="sym">C</button></div>
+            <div class="items"><button onclick="Delete()" id="sym">del</button></div>
+            <div class="items"><button onclick="Displaydiv()" id="sym">/</button></div>
+            <div class="items"><button onclick="Displaymul()" id="sym">*</button></div>
+            <div class="items"><button onclick="Display(7)">7</button></div>
+            <div class="items"><button onclick="Display(8)">8</button></div>
+            <div class="items"><button onclick="Display(9)">9</button></div>
+            <div class="items"><button onclick="Displayplus()" id="sym">+</button></div>
+            <div class="items"><button onclick="Display(4)">4</button></div>
+            <div class="items"><button onclick="Display(5)">5</button></div>
+            <div class="items"><button onclick="Display(6)">6</button></div>
+            <div class="items"><button onclick="Displayminus()" id="sym">-</button></div>
+            <div class="items"><button onclick="Display(1)">1</button></div>
+            <div class="items"><button onclick="Display(2)">2</button></div>
+            <div class="items"><button onclick="Display(3)">3</button></div>
+            <div class="items"><button onclick="Displaydot()" id="sym">.</button></div>
+            <div class="del"><button onclick="Display(0)">0</button></div>
+            <div class="items"><button onclick="zero()">00</button></div>
+            <div class="equal"><button onclick="Displayequal()" id="sym">=</button></div>
+   
+        </div>
+
+    </div>
+    <script>
+        function Display(value){
+            document.getElementById("demo").innerHTML+=value;
+        }
+        function Displaydiv(){
+            let but=document.getElementsByTagName("button")[2].innerHTML;
+          document.getElementById("demo").innerHTML+=but;
+        }
+        function Displayplus(){
+            let but=document.getElementsByTagName("button")[7].innerHTML;
+          document.getElementById("demo").innerHTML+=but;
+        }
+        function Displayminus(){
+            let but=document.getElementsByTagName("button")[11].innerHTML;
+          document.getElementById("demo").innerHTML+=but;
+        }
+        function Displaymul(){
+            let but=document.getElementsByTagName("button")[3].innerHTML;
+          document.getElementById("demo").innerHTML+=but;
+        }
+        function Displaydot(){
+            let but=document.getElementsByTagName("button")[15].innerHTML;
+          document.getElementById("demo").innerHTML+=but;
+        }
+        function Displayequal(){
+            let exp=document.getElementById("demo").innerHTML;
+            document.getElementById("demo").innerHTML=eval(exp);
+        }
+        function zero(){
+            let but=document.getElementsByTagName("button")[17].innerHTML;
+            document.getElementById("demo").innerHTML+=but;
+        }
+        function Delete(){
+            let string=document.getElementById("demo").innerHTML;
+                let string1="";
+                for(let i=0;i<string.length-1;i++)
+                {
+                    string1+=string[i];
+                }
+                document.getElementById("demo").innerHTML= string1;
+        }
+        function cancle(){
+            document.getElementById("demo").innerHTML="";
+        }
+    </script>
+</body>
+</html>
